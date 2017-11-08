@@ -1,13 +1,17 @@
-from packageinstallchk import package
+from autopy.packageinstallchk import package
 
-def main():
-    try:
-        checkoutput=package.packagesCheck("NANO","CHECK")
-    except OSError as e:
-        sys.exit("failed to execute the command {} :{}".format(str(e)))
+class Mainclass:
 
-if __name__=='__main__':
-    main()
+    def __init__(self):
+        self.name="NANO"
+        self.cmdType="CHECK"
+
+    def start(self):
+        try:
+            checkoutput=package.packagesCheck(self.name,self.cmdType)
+        except OSError as e:
+            sys.exit("failed to execute the command {} :{}".format(str(e)))
+
 
 # if checkoutput==0:
 #  package.packageInstall("NANO","INSTALL")

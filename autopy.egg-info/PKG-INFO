@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: autopy
+Version: 2.0.0
+Summary: My first application using subprocess module.
+Home-page: https://github.com/pbprathi/python_Subprocess
+Author: Bhageerath
+Author-email: pbprathi@gmail.com
+License: prathi
+Description: UNKNOWN
+Keywords: example documentation tutorial
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha

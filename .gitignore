@@ -1,2 +1,4 @@
 /venv
 /autopy/__pycache__
+/autopy.egg-info
+/dist

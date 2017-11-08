@@ -1,8 +1,8 @@
 from subprocess import check_output,CalledProcessError,Popen,STDOUT,PIPE
 from random import choice
-from readconfigjson import jsonConfig
+from autopy.readconfigjson import jsonConfig
 import sys
-class package():
+class package:
     def packagesCheck(pkg_name,pkg_cmdtype):
 
         searchstr="install ok installed"

@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+autopy/__init__.py
+autopy/config.json
+autopy/mainmodule.py
+autopy/packageinstall.py
+autopy/packageinstallchk.py
+autopy/readconfigjson.py
+autopy.egg-info/PKG-INFO
+autopy.egg-info/SOURCES.txt
+autopy.egg-info/dependency_links.txt
+autopy.egg-info/entry_points.txt
+autopy.egg-info/top_level.txt
